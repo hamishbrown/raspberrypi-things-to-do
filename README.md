@@ -58,14 +58,14 @@ A collection of usefully random things to do with a Raspberry Pi.
 
 ### Host your own [Tomcat](https://hub.docker.com/_/tomcat) webapp
 
-1. In the directory containing your WAR file,
+    1. In the directory containing your WAR file,
         nano Dockerfile
 
-2. Copy and Paste the following code
+    2. Copy and Paste the following code
         FROM tomcat:8.0
         COPY ./<YOUR_WEB_APP_NAME>.war /usr/local/tomcat/webapps/
 
-3. Save and Exit the file
+    3. Save and Exit the file
         <Ctrl-x>y<Enter>
 
 4. Build `<YOUR_IMAGE_NAME>`
