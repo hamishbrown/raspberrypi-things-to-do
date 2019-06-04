@@ -81,27 +81,20 @@ A collection of usefully random things to do with a Raspberry Pi.
 
 1. Create a directory for your website files called `'public-html'`
         mkdir public-html
-
 2. Copy your website files (.html, .js, .css) into `'public-html'`
-
 3. Create Dockerfile
         nano Dockerfile
-
 4. Copy and Paste the following code
         FROM httpd:2.4
         COPY ./public-html/ /usr/local/apache2/htdocs/
-
 5. Save and Exit the file
         <Ctrl-x>y<Enter>
-
 6. Build `<YOUR_IMAGE_NAME>`
         docker build -t <YOUR_IMAGE_NAME> .
-
 7. Run `<YOUR_CONTAINER_NAME>`
         docker run -dit --name <YOUR_CONTAINER_NAME> -p 8080:8080 <YOUR_IMAGE_NAME>
-
 8. Access at
         <http://<PI_IP_ADDR>/<YOUR_WEB_SITE_PAGE>
-        
+
 ### Reboot
     sudo reboot
