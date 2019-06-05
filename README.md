@@ -135,7 +135,7 @@ services:
       - "443:443/tcp"
     environment:
       TZ: 'Europe/Dublin'
-      # WEBPASSWORD: 'set a secure password here or it will be random'
+      WEBPASSWORD: '<YOUR_PI_ADMIN_PASSWORD>'
     # Volumes store your data between container upgrades
     volumes:
        - './etc-pihole/:/etc/pihole/'
@@ -151,6 +151,13 @@ services:
 ```
 Start with `docker-compose up`
 
+Access at
+
+        <http://<PI_IP_ADDR>/admin
+
+        Username: admin
+        Password: <YOUR_PI_ADMIN_PASSWORD>
+
 #### Install [RpiMonitor](https://xavierberger.github.io/RPi-Monitor-docs/01_features.html)
 
 ```Docker
@@ -165,6 +172,9 @@ docker run --device=/dev/vchiq \
     --name="rpi-monitor" \
     -d  michaelmiklis/rpi-monitor:latest
 ```
+Access at
+
+        <http://<PI_IP_ADDR>:8888/
 
 #### Reboot your Pi
 
