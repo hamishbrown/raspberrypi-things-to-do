@@ -4,9 +4,7 @@ A collection of usefully random things to do with a Raspberry Pi.
 
 #### Install [Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
 
-#### Install [Docker](https://www.docker.com/)
-        curl -sSL https://get.docker.com | sh
-        sudo usermod -aG docker pi
+#### Install [Docker](./doc/install-docker.md)
 
 #### Install [Python](https://www.python.org/) and [Pip](https://www.pypa.io)
         sudo apt-get install -y python python-pip
@@ -160,7 +158,7 @@ Access at
 
 #### Install [RpiMonitor](https://xavierberger.github.io/RPi-Monitor-docs/01_features.html)
 
-```Docker
+```docker
 docker run --device=/dev/vchiq \
     --volume=/opt/vc:/opt/vc \
     --volume=/boot:/boot \
