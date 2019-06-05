@@ -58,18 +58,29 @@ A collection of usefully random things to do with a Raspberry Pi.
 
 #### Host your own [Tomcat](https://hub.docker.com/_/tomcat) webapp
 
-1. In the directory containing your WAR file
+In the directory containing your WAR file
+
         nano Dockerfile
-2. Copy and Paste the following code
+
+Copy and Paste the following code
+
         FROM tomcat:8.0
         COPY ./<YOUR_WEB_APP_NAME>.war /usr/local/tomcat/webapps/
-3. Save and Exit the file
+
+Save and Exit the file
+
         <Ctrl-x>y<Enter>
-4. Build `<YOUR_IMAGE_NAME>`
+
+Build `<YOUR_IMAGE_NAME>`
+
         docker build -t <YOUR_IMAGE_NAME> .
-5. Run `<YOUR_CONTAINER_NAME>`
+
+Run `<YOUR_CONTAINER_NAME>`
+
         docker run -dit --name <YOUR_CONTAINER_NAME> -p 8080:8080 <YOUR_IMAGE_NAME>
-6. Access at
+
+Access at
+
         http://<PI_IP_ADDR>:8080/<YOUR_WEB_APP_NAME>
 
 #### Host your own [Apache](https://hub.docker.com/_/httpd) simple HTML website
