@@ -1,4 +1,6 @@
-#### Install [Pi-Hole](https://pi-hole.net/)
+#### Install Pi-Hole*
+* https://pi-hole.net/
+---
 Create `docker-compose.yml`
 
 ```yaml
@@ -39,3 +41,5 @@ Access at
 
         Username: admin
         Password: <YOUR_PI_ADMIN_PASSWORD>
+---
+*Requires [docker-compose](./install-docker-compose.md)

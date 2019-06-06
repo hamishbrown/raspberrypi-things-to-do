@@ -1,5 +1,7 @@
-## Host your own [Apache](https://hub.docker.com/_/httpd) simple HTML website
-
+## Host your own Apache simple HTML website*
+* https://httpd.apache.org/
+* https://hub.docker.com/_/httpd
+---
 Create a directory for your website files called `public-html`
 
         mkdir public-html
@@ -30,3 +32,5 @@ Run `<YOUR_CONTAINER_NAME>`
 Access at
 
         <http://<PI_IP_ADDR>/<YOUR_WEB_SITE_PAGE>
+---
+*Requires [Docker](./install-docker.md)
