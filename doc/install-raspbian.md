@@ -1,7 +1,7 @@
 ## Install Raspbian
 * https://www.raspberrypi.org/downloads/raspbian/
 * https://www.balena.io/etcher/
----
+
 Install [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) using [Etcher](https://www.balena.io/etcher/)
 
 Create a file called `ssh` and copy the file to the `ROOT` partition on the SD card
