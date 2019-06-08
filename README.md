@@ -28,6 +28,8 @@ A collection of usefully random things to do with a Raspberry Pi.
 
 #### [Install RpiMonitor](./doc/install-rpi-monitor.md)
 
+#### [Keep your data private and secure in NextCloud](./doc/install-nextcloud.md)
+
 #### [Keep all your containers updated with Watchtower](./doc/install-watchtower.md)
 
 #### Reboot your Pi
