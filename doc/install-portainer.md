@@ -7,4 +7,4 @@
             -v portainer_data:/data \
             portainer/portainer
 ```
-*Requires [Docker](./install-docker.md)
+*Requires [Docker](./doc/install-docker.md)

@@ -12,4 +12,4 @@
         --name="rpi-monitor" \
         -d  michaelmiklis/rpi-monitor:latest
 ```
-*Requires [Docker](./install-docker.md)
+*Requires [Docker](./doc/install-docker.md)

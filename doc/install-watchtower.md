@@ -8,4 +8,4 @@
             -v /var/run/docker.sock:/var/run/docker.sock \
             containrrr/watchtower:armhf-latest
 ```
-*Requires [Docker](./install-docker.md)
+*Requires [Docker](./doc/install-docker.md)

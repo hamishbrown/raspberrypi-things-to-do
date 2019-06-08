@@ -8,4 +8,4 @@
             --volume `pwd`/gogs-data/:/data \
             hypriot/rpi-gogs-raspbian
 ```
-*Requires [Docker](./install-docker.md)
+*Requires [Docker](./doc/install-docker.md)

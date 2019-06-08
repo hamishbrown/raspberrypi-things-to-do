@@ -26,8 +26,9 @@ A collection of usefully random things to do with a Raspberry Pi.
 
 #### [Install RpiMonitor](./doc/install-rpi-monitor.md)
 
-#### [Keep everything updated with Watchtower](./doc/install-watchtower.md)
+#### [Keep all your containers updated with Watchtower](./doc/install-watchtower.md)
 
 #### Reboot your Pi
-
+```
         sudo reboot
+```

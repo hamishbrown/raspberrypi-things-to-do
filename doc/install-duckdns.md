@@ -14,4 +14,4 @@
             --restart unless-stopped \
             linuxserver/duckdns
 ```
-*Requires [Docker](./install-docker.md)
+*Requires [Docker](./doc/install-docker.md)

@@ -18,7 +18,7 @@ services:
       - "80:80/tcp"
       - "443:443/tcp"
     environment:
-      TZ: 'Europe/Dublin'
+      TZ: 'UTC'
       WEBPASSWORD: '<YOUR_PI_ADMIN_PASSWORD>'
     # Volumes store your data between container upgrades
     volumes:
@@ -42,4 +42,4 @@ Access at
         Username: admin
         Password: <YOUR_PI_ADMIN_PASSWORD>
 ```
-*Requires [docker-compose](./install-docker-compose.md)
+*Requires [docker-compose](./doc/install-docker-compose.md)

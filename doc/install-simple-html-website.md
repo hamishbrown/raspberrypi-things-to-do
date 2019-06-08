@@ -33,4 +33,4 @@ Access at
 ```
         <http://<PI_IP_ADDR>/<YOUR_WEB_SITE_PAGE>
 ```
-*Requires [Docker](./install-docker.md)
+*Requires [Docker](./doc/install-docker.md)

@@ -5,4 +5,4 @@
         docker run -ti -v "noip:/usr/local/etc/" hypriot/rpi-noip noip2 -C
         docker run --name noip -v "noip:/usr/local/etc/" --restart=always hypriot/rpi-noip
 ```
-*Requires [Docker](./install-docker.md)
+*Requires [Docker](./doc/install-docker.md)

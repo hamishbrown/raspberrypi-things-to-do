@@ -27,4 +27,4 @@ Access at
 ```
         http://<PI_IP_ADDR>:8080/<YOUR_WEB_APP_NAME>
 ```
-*Requires [Docker](./install-docker.md)
+*Requires [Docker](./doc/install-docker.md)
