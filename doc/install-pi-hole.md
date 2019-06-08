@@ -1,4 +1,4 @@
-#### Install Pi-Hole*
+## Install Pi-Hole*
 * https://pi-hole.net/
 
 Create `docker-compose.yml`
