@@ -1,6 +1,6 @@
 ## Install docker-compose*
 * https://docs.docker.com/compose/
-```docker-compose
+```
         sudo pip install docker-compose~=1.23.0
         docker run \
             -v /var/run/docker.sock:/var/run/docker.sock \
@@ -8,4 +8,4 @@
             -w="/rootfs/$PWD" \
             docker/compose:1.13.0 up
 ```            
-*Requires [Python and Pip](./install-python-pip.md) and [Docker](./install-docker.md)
+*Requires [Python and Pip](./doc/install-python-pip.md) and [Docker](./doc/install-docker.md)
