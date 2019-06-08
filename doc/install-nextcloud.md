@@ -12,8 +12,8 @@ services:
     image: ownyourbits/nextcloudpi-armhf
     command: "${IP}"
     ports:
-     - "4480:80"
-     - "4483:443"
+     - "80:80"
+     - "443:443"
      - "4443:4443"
     volumes:
      - ncdata:/data
