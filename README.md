@@ -10,13 +10,15 @@ A collection of usefully random things to do with a Raspberry Pi.
 
 #### [Install Docker Compose](./doc/install-docker-compose.md)
 
+#### [Install Docker Registry](./doc/install-docker-registry.md)
+
 #### [Install Portainer](./doc/install-portainer.md)
 
-#### [Install your own Git server](./doc/install-gogs.md)
+#### [Host your own Git server](./doc/install-gogs.md)
 
-#### [Install NoIP](./doc/install-noip.md)
+#### [Install NoIP daemon](./doc/install-noip.md)
 
-#### [Install DuckDNS](./doc/install-duckdns.md)
+#### [Install DuckDNS daemon](./doc/install-duckdns.md)
 
 #### [Host your own Tomcat webapp](./doc/install-tomcat-war.md)
 

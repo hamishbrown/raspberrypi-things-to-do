@@ -1,4 +1,4 @@
-## Keep everything updated with Watchtower*
+## Keep all your containers updated with Watchtower*
 * https://containrrr.github.io/watchtower/
 * https://hub.docker.com/r/containrrr/watchtower
 ```

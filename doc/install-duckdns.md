@@ -1,4 +1,4 @@
-## Install DuckDNS*
+## Install DuckDNS daemon*
 * https://www.duckdns.org/
 * https://hub.docker.com/r/linuxserver/duckdns/
 ```

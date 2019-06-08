@@ -1,4 +1,4 @@
-## Install your own Git server*
+## Host your own Git server*
 * https://gogs.io/
 * https://hub.docker.com/r/hypriot/rpi-gogs-raspbian/
 ```
