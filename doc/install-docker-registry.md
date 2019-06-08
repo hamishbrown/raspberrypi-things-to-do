@@ -65,3 +65,4 @@ Make it executable and run it
         chmod +x populate.sh
         ./populate.sh
 ```
+*Requires [docker-compose](./doc/install-docker-compose.md)
