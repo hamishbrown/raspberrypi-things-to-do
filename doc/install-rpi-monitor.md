@@ -1,6 +1,6 @@
 ## Install RpiMonitor*
 * https://xavierberger.github.io/RPi-Monitor-docs/01_features.html)
----
+```
     docker run --device=/dev/vchiq \
         --volume=/opt/vc:/opt/vc \
         --volume=/boot:/boot \
@@ -11,5 +11,5 @@
         -p=8888:8888 \
         --name="rpi-monitor" \
         -d  michaelmiklis/rpi-monitor:latest
----
+```
 *Requires [Docker](./install-docker.md)
