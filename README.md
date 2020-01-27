@@ -4,6 +4,8 @@ A collection of usefully random things to do with a Raspberry Pi.
 
 #### [Install Raspbian](./doc/install-raspbian.md)
 
+#### [Auto connect wifi on boot](.doc/pi-zero/auto_connect_wifi.md)
+
 #### [Install Docker](./doc/install-docker.md)
 
 #### [Install Python and Pip](./doc/install-python-pip.md)
@@ -31,6 +33,12 @@ A collection of usefully random things to do with a Raspberry Pi.
 #### [Keep your data private and secure in NextCloud](./doc/install-nextcloud.md)
 
 #### [Keep all your containers updated with Watchtower](./doc/install-watchtower.md)
+
+#### [Mount external USB drives](./doc/mount-external-usb-drives.md)
+
+#### [Install SAMBA to share drives across your local networks](.doc/install-samba.md)
+
+#### [Install a Plex server](.doc/install-plex-server.md)
 
 #### Reboot your Pi
 ```
