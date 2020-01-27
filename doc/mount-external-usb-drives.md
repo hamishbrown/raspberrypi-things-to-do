@@ -1,8 +1,12 @@
 ## Mount External USB Drives
 
+Install dependencies:
 ```
 sudo apt-get update && sudo apt-get -y install ntfs-3g hfsutils hfsprogs acl exfat-utils hfsplus gdisk
+```
 
+Setup mount points:
+```
 sudo blkid
 
 sudo mkdir /media/<DRIVE_LABEL>

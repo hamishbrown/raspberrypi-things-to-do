@@ -1,6 +1,7 @@
 ## Install a Plex server
 * https://pimylifeup.com/raspberry-pi-plex-server/
 
+Install dependencies:
 ```
 sudo apt-get install apt-transport-https
 
