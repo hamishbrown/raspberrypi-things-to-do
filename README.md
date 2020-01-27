@@ -36,11 +36,6 @@ A collection of usefully random things to do with a Raspberry Pi.
 
 #### [Mount external USB drives](./doc/mount-external-usb-drives.md)
 
-#### [Install SAMBA to share drives across your local networks](.doc/install-samba.md)
+#### [Install SAMBA to share drives across your local networks](./doc/install-samba.md)
 
-#### [Install a Plex server](.doc/install-plex-server.md)
-
-#### Reboot your Pi
-```
-        sudo reboot
-```
+#### [Install a Plex server](./doc/install-plex-server.md)
