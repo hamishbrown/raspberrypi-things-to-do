@@ -39,3 +39,7 @@ A collection of usefully random things to do with a Raspberry Pi.
 #### [Install SAMBA to share drives across your local networks](./doc/install-samba.md)
 
 #### [Install a Plex server](./doc/install-plex-server.md)
+
+#### [Setup Docker on Ubuntu](./doc/setup-docker-on-ubuntu.md)
+
+#### [Setup Nordvpn](/doc/setup-nordvpn.md)
