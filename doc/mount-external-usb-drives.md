@@ -17,7 +17,7 @@ sudo setfacl -Rdm g:pi:rwx /media/<DRIVE_LABEL>
 
 ```
 
-Then edit ```sudo nano /etc/fstab/```
+Then edit ```sudo nano /etc/fstab```
 
 Add similar to:
 
