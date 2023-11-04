@@ -2,7 +2,7 @@
 
 A collection of usefully random things to do with a Raspberry Pi.
 
-#### [Install Raspbian](./doc/install-raspbian.md)
+#### [Install Raspbian for a headless server](./doc/install-raspbian.md)
 
 #### [Auto connect wifi on boot](.doc/pi-zero/auto_connect_wifi.md)
 
@@ -43,3 +43,5 @@ A collection of usefully random things to do with a Raspberry Pi.
 #### [Setup Docker on Ubuntu](./doc/setup-docker-on-ubuntu.md)
 
 #### [Setup Nordvpn](/doc/setup-nordvpn.md)
+
+#### [Install Easy Radio](/doc/setup-easy-radio.md)
